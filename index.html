@@ -19,9 +19,10 @@
    <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-   <!-- FONT AWESOME -->
-  <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+
 
    <!-- TYPE JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
@@ -41,6 +42,37 @@
       emailjs.init("eMGjMhkrEFiahusux");
     })();
   </script>
+<style>
+  .button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttoncolor {
+  border-radius: 8px;
+}
+
+.button2 {background-color: #008CBA;}
+.pos{
+  align-items: center;
+}
+  .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+   color: white;
+     
+     text-align: center;
+  }
+  </style>
 
 </head>
 
@@ -51,9 +83,7 @@
       </div> 
       
       <div class="max-width">
-        <div class="logo">
-        <a href="#">Portfolio Website</a>
-      </div>
+        
         <ul class="menu">
 
           <li><a href="#home" class="menu-btn">Home</a></li>
@@ -61,7 +91,9 @@
           <li><a href="#services" class="menu-btn">Projects</a></li>
           <li><a href="#contact" class="menu-btn">Contact</a></li>
         </ul>
-        
+        <div class="logo">
+          <h1 style="color:white">&nbsp &nbsp &nbsp &nbspPortfolio Website</h1>
+        </div>
         <div class="menu-btn">
           <i class="material-icons">menu</i>
         </div>
@@ -78,8 +110,8 @@
   <section class="home" id="home">
     <div class="max-width" data-aos="fade-up">
       <div class="home-content">
-        <div class="text-1" ><span>Hello! there</span></div>
-        <div class="text-3"><span>Kajal Virdi, Welcomes you.</span></div>
+     <!--   <div class="text-1" ><span>Hello! there</span></div>  -->
+        <div class="text-3"><span>Hi! Kajal Virdi, Welcomes you.</span></div>
         <div class="text-2"><span>Scroll to Explore, Are you ready..?</span></div>
       </div>
     </div>
@@ -94,11 +126,13 @@
         <div class="column right" data-aos="fade-up">
         
           <p class="paragraph">
-            My name is Kajal. Currently, I am Studying <b>Mobile Application Development</b> Course at <b>Georgian College</b> Barrie in Canada.
-             I have done my <b>Bachelor's of Compputer Application</b> from <b>Punjab University Chandigarh</b>, India. I love doing creative designing in my free time also i have a good choice of colors.
-        
+            Introduction: My name is Kajal. Currently, I am enrolled in Mobile Application Development Course at Georgian College Barrie in Canada. I am from Punjab, India. I like to solve non-trivial problems and think creatively. I have a keen interest in programming, which helps me to develop the skill of logical thinking, building algorithms and problem-solving. I also have an interest in animation creation.<br>
+            Education: I completed my schooling in Arts and Humanities stream. After that I did my graduation in Bachelor of Computer Applications from Punjab University, Chandigarh.   <br>          
+            Employment History: As of now, I don't have any work experience.But i have build projects during my BCA.
+          
         <div>       
-        <a href="https://github.com/kajal-virdi" target="_blank"><i >Github</i></a>
+        <a href="https://github.com/kajal-virdi" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
       </div>
     </div>
@@ -139,12 +173,31 @@
           </div>
           </div><br>
           <p>
+            <b>Color Scheme:</b><span>
+               <button class="buttoncolor" style="background-color: #AF38EB;">#AF38EB</button>
+               <button class="buttoncolor" style="background-color: #96C3EB ;">#96C3EB</button>
+               <button class="buttoncolor" style="background-color: #4073FF ;">#4073FF</button>
+               
+            </span></p>
+          <p>
             This application is mainly used to book different games, activities like football court, swimming pool, party hall, badminton court.
 
 The user can register and login. Then they can view different services available and can select the required one.
 
 The timings and available slots will be provided in the app and the user can book according to their time.
           </p>
+          <p>
+            <b>Role:</b>My team and I collaborated on this project. I have been actively involved in sprint planning, sprint demos, and sprint retrospectives. 
+I have used ui/ux design to produce screens that are entirely bug-free and functional.
+            </p>
+            <p>
+              <b>Process:</b>> We initially used miro.com as a group to brainstorm the concept. On the Trello board, we created UML diagrams and launched our sprints. 
+              We set up our project's on GitHub and got to work on creating user stories for our application. We managed our teamwork using a Trello board, and so far we have successfully finished two sprints.
+              </p>         
+                <p>
+                  <b>Platform and Technology:</b> Anderoid(Java)</p>
+                  <p>
+                    <b>Font family:</b>Serif and sans-serif fonts</p>
         </div>
 
         <div class="container-fluid mt-3">
@@ -176,9 +229,28 @@ The timings and available slots will be provided in the app and the user can boo
             </div>
           </div>
           </div><br>
+          <p>
+            <b>Color Scheme:</b><span>
+               <button class="buttoncolor" style="background-color: #F5F5F5;">#F5F5F5</button>
+               <button class="buttoncolor" style="background-color: #CDC5C5 ;">#CDC5C5</button>
+               <button class="buttoncolor" style="background-color: #0619C3;">#0619C3</button>
+               <button class="buttoncolor" style="background-color: #FF5C5C ;">#FF5C5C</button>
+               
+            </span></p>
+          <p>
           <p>An online platform to book the required home services from the local service providers at the convenience of your home.
             Here people can find the list of service providers for any kind of work like carpenters, Plumbers, technicians etc.
           </p>
+          <p>
+            <b>Role:</b>> In this project i am working in a pair with my mate. I am the application's designer and developer at the same time. This application is currently in the design phase. Wireframes, UX screens, and brainstorming for the application are all finished. Technical and functional specifications have been submitted.
+            </p>
+            <p>
+              <b>Process:</b>> Before moving on with the development, we completed describing all of the data flow, navigation, including all of the functional and technical requirements, as part of the project proposal. We developed the idea, documented it, and then started finishing the screens on figma.com.
+              </p>         
+                <p>
+                  <b>Platform and Technology:</b> Anderoid(Java)</p>
+                  <p>
+                    <b>Font family:</b>Serif and sans-serif</p>
         </div>
 
         <div class="container-fluid mt-3">
@@ -210,10 +282,29 @@ The timings and available slots will be provided in the app and the user can boo
             </div>
           </div>
           </div><br>
+          <p>
+            <b>Color Scheme:</b><span>
+               <button class="buttoncolor" style="background-color: #a3c7ff;">#a3c7ff</button>
+               <button class="buttoncolor" style="background-color: #DCDCDC ;">#DCDCDC</button>
+               
+            </span></p>
+          <p>
           <p>We have plenty of snowfall in Canada every year, it's essential that snow is routinely removed from your roof, pathways and Car to prevent slipping/skidding, ice dams, water infiltration, and even roof collapse.
             Some people/organization find it very difficult to clear the snow due to lack of time, proper knowledge, equipment, manpower or their physical inability to do things.
             It is a landscaping service app and helps people to connect with the snow shovelers when they are in need of snow removal services. This app is the quickest way to get walk shovelled.It gives the power to the user to order a snow shoveler in a few clicks. Users can use it anywhere and at any time and get quick and transparent snow cleaning services within hours.
              </p>
+             <p>
+              <b>Role:</b> I created this project as a member of a cross-platform development team. I have participated actively in meetings for project planning, demos, and reviews.
+              I have created working ui/ux screens and developed them from scratch.
+              </p>
+              <p>
+                <b>Process:</b>Full home services were one of the ideas we discussed as a group, but we felt they would be too complicated to implement in the beginning.
+                We learned how to set up React Native in its entirety, distributed the tasks among the groups, and documented the app idea, build, and design screens .
+                We have submitted the first set of, complete screens of our application.</p>         
+                  <p>
+                    <b>Platform and Technology:</b> React-native</p>
+                    <p>
+                      <b>Font family:</b>Serif and sans-serif fonts</p>
         </div>
         <br>
         <div class="container-fluid mt-3">
@@ -245,8 +336,25 @@ The timings and available slots will be provided in the app and the user can boo
             </div>
           </div>
           </div><br>
-          <p>This is a basic game which we all have played atleast once in our lifetime.
-             This app may seem basic but developing this app means having good grasp of basic impelementation of technological concepts.</p>
+          <p>
+            <b>Color Scheme:</b><span>
+               <button class="buttoncolor" style="background-color: #20356B;">#20356B</button>
+               <button class="buttoncolor" style="background-color: #DD50D7 ;">#DD50D7</button>
+               <button class="buttoncolor" style="background-color: #75C9A1;">#75C9A1</button>
+               <button class="buttoncolor" style="background-color: #0D6EFD ;">#0D6EFD</button>
+              
+            </span></p>
+          <p>
+          <p>We have all played this simple game at least once in our lives. This programme may appear straightforward, but creating it requires a solid understanding of the fundamentals of technology implementation.</p>
+             <p>
+              <b>Role:</b> This is something I created entirely on my own.
+              </p>
+              <p>
+                <b>Process:</b>> I built the app in accordance with the instructions provided by the teacher as part of our in-class learning exercise. </p>         
+                  <p>
+                    <b>Platform and Technology:</b>Anderoid(Java)</p>
+                    <p>
+                      <b>Font family:</b>Serif and sans-serif fonts</p>
         </div>
       </div>
     </div>
@@ -301,8 +409,9 @@ The timings and available slots will be provided in the app and the user can boo
                       </div>
                     </div>
                   </div>
-                  <div class="center-on-small-only mb-4">
-                    <button type="submit"><i></i> Send</button>
+                  <div class="pos">
+                    <br>
+                    <button class="button button2">Send</button>
                   </div>
                 </form>
               </div>
@@ -327,11 +436,7 @@ The timings and available slots will be provided in the app and the user can boo
   </section>
 
   <!-- footer section start -->
-  <footer>
-    <div class="text-center">
-      <span>
-        Designed and Created By <a href="#">Kajal Virdi</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
-  </footer>
+  <footer class="footer">Designed and Created By <a href="#">Kajal Virdi</a>| <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved. &nbsp  &nbsp  &nbsp  Contact info:</b> kajal-virdi@gmail.com  +1519XXXXXXX   <a href="https://github.com/kajal-virdi"> <i class="fa fa-github"></i></a> <a href="#"><i class="fa fa-instagram"></i></a>  </footer>
   <script src="script.js"></script>
   <script>
     // When the user scrolls the page, execute myFunction 
